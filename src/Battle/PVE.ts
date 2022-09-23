@@ -7,7 +7,7 @@ export default class PVE extends Battle {
 
   constructor(fighter: Fighter, monsters: (SimpleFighter | Fighter)[]) {
     if (monsters.length < 1) {
-      throw new Error('At least one monster is expected.');
+      throw new Error('At least one monster is expected!');
     }
     super(fighter);
     this._fighter = fighter;
