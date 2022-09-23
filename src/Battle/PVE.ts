@@ -15,13 +15,13 @@ export default class PVE extends Battle {
   }
 
   public fight(): number {
-    const monstersAlive = this._monsters
-      .filter((monster) => monster.lifePoints > 0);
-    while (this._fighter.lifePoints > 0 && monstersAlive.length > 0) {
-      this._fighter.attack(monstersAlive[Math
-        .floor(Math.random() * monstersAlive.length)]);
-      monstersAlive.map((monster) => monster.attack(this._fighter));
-    }
+    this._monsters.every((monster) => {
+      while (this._fighter.lifePoints > 0 && monster.lifePoints > 0) {
+        this._fighter.attack(monster);
+        monster.attack(this._fighter);
+      }
+      return this._fighter.lifePoints >= 0;
+    });
     return super.fight();
   }
 }
