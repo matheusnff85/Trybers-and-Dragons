@@ -1,3 +1,5 @@
-export default class Elf {
+import Race from './Race';
+
+export default class Elf extends Race {
   
 }
