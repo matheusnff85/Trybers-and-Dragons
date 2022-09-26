@@ -1,16 +1,11 @@
-# 🚧 README em construção 🚧
+# Trybers and Dragons
 
-<!-- Olá, Tryber!
+Para este projeto, o objetivo era aplicar os princípios da arquitetura SOLID e os princípios de POO em uma estrutura de jogos de interpretação de papéis, mais conhecidos como jogos RPG (Role Playing Game).
 
-Esse é apenas um arquivo inicial para o README do seu projeto.
+# Importante
 
-É essencial que você preencha esse documento por conta própria, ok?
+O projeto possui apenas arquivos criados com o objetivo de estruturar classes para simular um jogo de RPG, então a unica ação necessária após clonar o repositório é utilizar o comando `npm install` para instalar todas as depedências necessárias para o projeto.
 
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
+---
 
-⚠️ IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
-
--->
+- Desenvolvido por [Matheus Marinho](https://www.linkedin.com/in/matheus-marinhodsp/).
